@@ -1,6 +1,15 @@
+==============
+JCA Examples
+==============
+This projects includes some encryption/decryption examples with the JCA APIs.
 
-Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files for JDK/JRE 7
+**Requirements**
+JDK 1.7
+JCE Unlimited Strength Jurisdiction Policy Files for JDK/JRE 7
 
-http://www.oracle.com/technetwork/java/embedded/embedded-se/downloads/jce-7-download-432124.html
-
-- Copy jars to jdk_home/jre/lib/security
+How to install JCE extention files
+- Go to the Oracle Java download page http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html
+- Accept license agreement and download the UnlimitedJCEPolicyJDK7.zip
+- Unzip the downloaded zip 
+- Copy local_policy.jar and US_export_policy.jar to the $JAVA_HOME/jre/lib/security
+(Note: these jars will be already there so you have to overwrite them)
