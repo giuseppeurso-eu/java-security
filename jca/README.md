@@ -1,9 +1,10 @@
 ==============
 JCA Examples
 ==============
-This projects includes some encryption/decryption examples with the JCA APIs.
+This projects includes some encryption/decryption examples using the JCA APIs.
 
 **Requirements**
+
 JDK 1.7
 JCE Unlimited Strength Jurisdiction Policy Files for JDK/JRE 7
 
